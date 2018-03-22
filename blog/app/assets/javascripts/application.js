@@ -11,8 +11,12 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require foundation
 //= require turbolinks
 //= require_tree .
 //= require angular-animate
 //= require angular-resource
 //= require angular
+//= require unstable/angular2
+
+$(function(){ $(document).foundation(); });
